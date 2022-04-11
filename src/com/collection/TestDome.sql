@@ -1,0 +1,1 @@
+Select   apartmentName, sum(DATEDIFF(dateTo, dateFrom)) AS numberOfDays from reservations group by apartmentName;
